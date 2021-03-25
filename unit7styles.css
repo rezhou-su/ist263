@@ -1,0 +1,26 @@
+h1 {color:#ff0000;}
+
+a:link {color:#00ff00;}
+a:visited {color:#0000ff;}
+a:hover {color:#999999;}
+/* hex color requires the poud sign */
+/* psuedo selectors need a colon between selector and its state */
+
+.oneoff:hover {background-color:#5d02bf;}
+/* u can use any selecter with psuedo selesctor */
+
+body {background-image: url(images/lilogo.png);
+    background-size: 200px;
+    background-color: #ebebda;}
+    /* file path for background is from the css file */
+    /* don't forget the url and paranthesis for background images */
+    /* size the background image */
+
+p {background-color:#ffffff;
+    width: 300px;
+    /* to calculate width: width + 2 times of padding+ border*2 + margin*2 */
+   padding: 20px;
+   margin: 50px;
+   border: 5px solid #000000;
+   /* this is a combo property value, it's documented in the css spec */
+}
