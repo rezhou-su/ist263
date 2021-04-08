@@ -1,0 +1,45 @@
+h1 {color:#ff0000;}
+
+a:link {color:#00ff00;}
+a:visited {color:#0000ff;}
+a:hover {color:#999999;}
+
+
+
+body {background-color: #ebebda;}
+    
+nav {
+   
+   padding: 10px;
+   margin-bottom: 30px;
+     
+  }
+
+nav {background-color:#E2703A;}
+nav a:link {color:#1f441e;}
+nav a:visited {color:#393232;}
+nav a:hover {background-color: #c15050;}
+
+.quote {float:right;}
+.myself {float:left; margin:0px 20px 10px 0px;}
+.clear {clear: both;}
+
+.firstrow { background-color:#cce5ff; border-radius: 1em; padding:20px}
+.addressandlink {display:flex;}
+.address, .link {margin:10px;}
+.linkedinp {float:right;}
+
+.secondrow {display:flex; flex-wrap:wrap; background-color:#cce5ff; border-radius: 1em; padding:20px}
+.form, .map {margin:40px;}
+.form {order:1;}
+.map {order:2;}
+
+.firstrow, .secondrow {margin:20px;}
+
+.myself {max-width:100%}
+
+/* cellphone size */
+@media only screen and (max-width: 600px){
+nav a {width:100%; display:block;}
+span {display:none;}
+}
