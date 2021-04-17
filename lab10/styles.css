@@ -16,7 +16,8 @@ nav {
      
   }
 
-nav {background-color:#E2703A;}
+nav {background-color:#E2703A;
+font-size:20px;}
 nav a:link {color:#1f441e;}
 nav a:visited {color:#393232;}
 nav a:hover {background-color: #c15050;}
