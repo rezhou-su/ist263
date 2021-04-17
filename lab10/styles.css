@@ -26,7 +26,7 @@ nav a:hover {background-color: #c15050;}
 .myself {float:left; margin:0px 20px 10px 0px;}
 .clear {clear: both;}
 
-.firstrow { background-color:#cce5ff; border-radius: 1em; padding:20px; font-size:20px}
+.firstrow { background-color:#cce5ff; border-radius: 1em; padding:20px; font-size:30px}
 .addressandlink {display:flex;}
 .address, .link {margin:10px;}
 .linkedinp {float:right;}
@@ -57,3 +57,4 @@ span {display:none;}
   position: absolute;
   left: 10px;
 }
+
