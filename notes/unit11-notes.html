@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 11 Notes</title>
+        <!-- vv script tag is for embedding javascript in html-->
+        <script>
+            /* code is name SayHello, it must have curly rackets to start and end the name code */
+            function SayHello() {
+                 alert('Hello World')
+                /* alert is my function, paranthesis after. inside quotes with a message semycolon at the end of every line*/
+            }
+            function SecondFunction() {
+                alert('Second Alert');
+            }
+            function ThirdFunction() {
+                alert('Third Alert');
+            }
+            function LeaveForm() {
+                
+                document.getElementById("message").innerHTML = "you left this form element"
+            }
+        </script>
+    </head>
+    <body onload="SayHello();">
+        <!-- ^^ this onload is telling our named code to run -->
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <a href="http://www.google.com" onclik="SecondFunction();">Google</a>
+        <a href="" onclik="ThirdFunction();">Another LInk</a>
+        <!-- these links both use onclik ut run different javascript function-->
+        <form >
+            <label for="comments">Please descrie yourself:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50" onblur="LeaveForm();">
+              Hello.
+            </textarea>
+            <div id ="message"></div> <!-- this is where T'm gonna ring up the message-->
+        </form>
+    </body>
+</html>
