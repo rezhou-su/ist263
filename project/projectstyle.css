@@ -12,3 +12,17 @@ nav {background-color:#e62828;}
 nav a:link {color:#2f50e4;}
 nav a:visited {color:#050505;}
 nav a:hover {background-color: #50c163;}
+
+#slideshow-container {
+    width: 1200px;
+    margin: auto; /* margin auto is centering this container */        
+}
+#bigimages {margin-right: 100px; float:left;}
+#outlast2 {display:block;}
+#lof, #ppd {display:none;}
+#outlast2info {display:block;}
+#lofinfo, #ppdinfo {display:none;}
+#planetinfo {padding: 100px;}
+#thumbnails {width: 840px; margin: auto; padding-top: 20px;} 
+#tnoutlast2, #tnlof, #tnppd {width:250px;}
+.clear {clear:both;}
