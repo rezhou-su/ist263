@@ -15,7 +15,7 @@ nav a:hover {background-color: #50c163;}
 
 #slideshow-container {
     width: 1200px;
-    margin: auto; /* margin auto is centering this container */        
+    margin: auto;      
 }
 #bigimages {margin-right: 100px; float:left;}
 #outlast2 {display:block;}
@@ -26,3 +26,14 @@ nav a:hover {background-color: #50c163;}
 #thumbnails {width: 840px; margin: auto; padding-top: 20px;} 
 #tnoutlast2, #tnlof, #tnppd {width:250px;}
 .clear {clear:both;}
+
+@media only screen and (max-width: 600px){
+    nav a {width:100%; display:block;}
+    span {display:none;}
+    #bigimages {display:none;}
+    #slideshow-container {
+        width: 300px;
+        margin: auto;      
+    }
+    #thumbnails {width: 200px; margin: auto; padding-top: 20px;} 
+    }
