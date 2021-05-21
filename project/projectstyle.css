@@ -28,7 +28,7 @@ nav a:hover {background-color: #50c163;}
 .clear {clear:both;}
 
 @media only screen and (max-width: 600px){
-    nav a {width:100%; display:block;}
+    nav a {font-size:25px; width:100%; display:block;}
     span {display:none;}
     #bigimages {display:none;}
     #slideshow-container {
